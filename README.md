@@ -26,9 +26,7 @@ LoRA (Low-Rank Adaptation) is a **Parameter-Efficient Fine-Tuning (PEFT)** techn
 
 Instead of updating the full weight matrix \( W \) of a neural network layer:
 
-\[
-W \in \mathbb{R}^{d \times k}
-\]
+W ∈ ℝ^(d × k)
 
 LoRA freezes the original weights and learns a **low-rank update**:
 
