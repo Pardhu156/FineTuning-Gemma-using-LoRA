@@ -32,19 +32,15 @@ W \in \mathbb{R}^{d \times k}
 
 LoRA freezes the original weights and learns a **low-rank update**:
 
-\[
-W' = W + \Delta W
-\]
+W' = W + ΔW
 
 Where:
 
-\[
-\Delta W = A \cdot B
-\]
+ΔW = A · B
 
-- \( A \in \mathbb{R}^{d \times r} \)
-- \( B \in \mathbb{R}^{r \times k} \)
-- \( r \ll d, k \)
+- A ∈ ℝ^(d × r)
+- B ∈ ℝ^(r × k)
+- r << d, k  (r is a small rank)
 
 This drastically reduces the number of trainable parameters.
 
