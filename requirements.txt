@@ -1,0 +1,9 @@
+keras>=3.0.0
+keras-nlp>=0.8.0
+jax>=0.4.20
+jaxlib>=0.4.20
+kagglehub
+numpy
+pandas
+tqdm
+matplotlib
