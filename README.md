@@ -77,3 +77,19 @@ The pretrained weights remain frozen while only the low-rank matrices are traine
 - Downloaded as `.jsonl` file in notebook
 
 Prompt format used:
+
+Instruction:
+<instruction>
+
+Response:
+<response>
+
+
+---
+
+## ⚙️ Model Used
+
+- `gemma_2b_en`
+- Loaded using:
+```python
+keras_nlp.models.GemmaCausalLM.from_preset("gemma_2b_en")
